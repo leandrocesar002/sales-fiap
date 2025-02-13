@@ -13,10 +13,6 @@ logs/
 *.pid
 *.pid.lock
 
-# Diretórios do Docker
-**/Dockerfile
-**/docker-compose.yml
-.dockerignore
 
 # Sistema operacional
 .DS_Store
