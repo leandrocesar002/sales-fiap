@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const VEICULO_SERVICE_URL = "http://localhost:3000/api/veiculos"; // Altere a URL se necessário
+const VEICULO_SERVICE_URL = "http://54.211.144.92:3000/api/veiculos"; 
 
 const buscarVeiculoPorId = async (id) => {
     try {
@@ -8,7 +8,7 @@ const buscarVeiculoPorId = async (id) => {
         return response.data;
     } catch (error) {
         console.error("Erro ao buscar veículo:", error.message);
-        return null; // Retorna null caso o veículo não seja encontrado
+        return null; 
     }
 };
 
