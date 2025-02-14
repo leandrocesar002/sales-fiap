@@ -41,13 +41,10 @@ cd SALES-FIAP
 npm install
 ```
 
-### 3. Configurar variáveis de ambiente
-Criar um arquivo `.env` com as configurações do banco de dados e outras variáveis necessárias.
-
-### 4. Banco de dados
+### 3. Banco de dados
 Banco de dados está na AWS RDS
 
-### 5. Rodar o servidor
+### 4. Rodar o servidor
 ```bash
 npm start
 ```
