@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const VEICULO_SERVICE_URL = "http://54.211.144.92:3000/api/veiculos"; 
+const VEICULO_SERVICE_URL = "http://52.91.28.63:3000/api/veiculos"; 
 
 const buscarVeiculoPorId = async (id) => {
     try {

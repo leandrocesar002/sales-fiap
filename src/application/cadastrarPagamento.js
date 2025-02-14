@@ -1,8 +1,8 @@
 const Pagamento = require("../infrastructure/database/models/PagamentoModel");
 const axios = require("axios");
 
-const VENDAS_SERVICE_URL = "http://54.211.144.92:4000/vendas";
-const VEICULO_SERVICE_URL = "http://54.211.144.92:3000/api/veiculos";
+const VENDAS_SERVICE_URL = "http://52.91.28.63:4000/vendas";
+const VEICULO_SERVICE_URL = "http://52.91.28.63:3000/api/veiculos";
 
 const cadastrarPagamento = async (venda_id, codigo_pagamento, status_pagamento) => {
     try {
